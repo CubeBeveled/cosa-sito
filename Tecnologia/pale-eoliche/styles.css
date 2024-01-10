@@ -1,0 +1,72 @@
+.titolo {
+  cursor: default;
+  user-select: none;
+  color: #5CE1E6;
+  display: inline-block;
+  width: fit-content;
+
+  border-radius: 5px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  transition: all 0.15s;
+}
+
+.titolo:hover {
+  color: #5CE1E6;
+  width: fit-content;
+  text-decoration: underline;
+
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
+}
+
+.contenuto {
+  width: 60%;
+  text-align: left;
+  margin-left: 40vh;
+}
+
+.testo {
+  color: #dcdcdc;
+}
+
+.contieni-didascalia {
+  width: fit-content;
+  display: inline-block;
+  margin: 30px;
+}
+
+.didascalia {
+  color: #dcdcdc;
+  display: block;
+}
+
+.sottotitolo {
+  color: #ffffff;
+  text-indent: -20px;
+}
+
+.immagine {
+  cursor: pointer;
+  margin: 30px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.immagine-descrizione {
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 50vh;
+}
+
+.lista {
+  width: 100%;
+}
+
+.evidenzia {
+  color:rgb(6, 95, 212);
+}

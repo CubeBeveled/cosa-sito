@@ -1,0 +1,325 @@
+body {
+  font-family: Roboto, Arial;
+  background-color: rgb(47, 47, 47);
+  color: rgb(255, 255, 255);
+}
+
+/*
+TOP BAR
+*/
+.topbar {
+  display: flex;
+
+  align-items: center;
+
+  position: relative;
+
+  height: 10vh;
+  padding-top: 0.6rem;
+  width: 100%;
+  height: 80px;
+  margin-top: 0;
+
+  border-radius: 6px;
+  border: 3px solid #626262;
+}
+
+.title_image {
+  cursor: pointer;
+  width: 10vh;
+  margin-bottom: 10px;
+}
+
+/*
+STUFF STYLES
+*/
+.link {
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: large;
+  color: #fff;
+  user-select: none;
+
+  transition: all, 0.30s;
+}
+
+.link:hover {
+  color: rgb(6, 95, 212);
+}
+
+.button {
+  cursor: pointer;
+  font-size: medium;
+  border-style: solid;
+  color: rgb(6, 95, 212);
+  border-color: rgb(6, 95, 212);
+  background-color: rgb(25, 25, 25);
+  border-radius: 6px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all, 0.30s;
+  font-weight: bold;
+
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.button:hover {
+  color: rgb(53, 53, 53);
+  border-color: rgb(53, 53, 53);
+  background-color: rgb(6, 95, 212);
+  border-radius: 20px;
+  transition: all, 0.30s;
+}
+
+/*
+TITLE
+*/
+.title {
+  cursor: pointer;
+  user-select: none;
+
+  color: rgb(6, 95, 212);
+  display: block;
+  width: fit-content;
+
+  text-decoration: none;
+  border-radius: 5px;
+  padding-bottom: 5px;
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+  padding-left: 8px;
+  padding-right: 8px;
+
+  transition: box-shadow 0.15s;
+  transition: outline-offset 0.15s;
+}
+
+.title:hover {
+  color: rgb(6, 95, 212);
+  display: block;
+  width: fit-content;
+
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
+
+  outline-style: solid;
+  outline-color: invert;
+  outline-offset: 10px;
+}
+
+/*
+ENTRIES LIST
+*/
+.entry-drop {
+  user-select: none;
+  cursor: pointer;
+  width: fit-content;
+  background-color: rgb(65, 65, 65);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  transition: all, 0.40s;
+}
+
+.entry-drop:hover {
+  cursor: pointer;
+  width: fit-content;
+  background-color: rgb(25, 25, 25);
+  border-radius: 5px;
+
+  margin-top: 5px;
+}
+
+.entry-drop:active {
+  background-color: rgb(13, 13, 13);
+
+  margin-top: 20px;
+  transition: margin-top, 0.1s;
+}
+
+
+.entry-drop:focus {
+  border: 1px solid #007bff;
+}
+
+.entry {
+  cursor: default;
+  user-select: none;
+  color: rgb(190, 190, 190);
+  background-color: rgb(31, 31, 31);
+  border-radius: 6px;
+  text-align: left;
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 10px;
+
+  transition: all, 0.30s;
+  font-weight: bold;
+  width: fit-content;
+
+  display: inline-block;
+}
+
+.entry:hover {
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+}
+
+.entry-title {
+  color: rgb(240, 240, 240);
+  text-align: left;
+}
+
+.entry-subtitle {
+  text-align: left;
+  color: rgb(240, 240, 240);
+  margin-left: 20px;
+}
+
+/*
+ENTRIES
+*/
+.indietro {
+  position: fixed;
+  cursor: pointer;
+  font-size: medium;
+  border-style: solid;
+  color: rgb(6, 95, 212);
+  border-color: rgb(6, 95, 212);
+  background-color: rgb(25, 25, 25);
+
+  border-radius: 6px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  transition: all, 0.30s;
+  font-weight: bold;
+
+  display: inline-block;
+  vertical-align: bottom;
+  /*position: fixed;
+    position: absolute;*/
+  top: 0;
+}
+
+.indietro:hover {
+  color: rgb(53, 53, 53);
+  border-color: rgb(53, 53, 53);
+  background-color: rgb(6, 95, 212);
+  border-radius: 20px;
+  transition: all, 0.30s;
+}
+
+.vai {
+  cursor: pointer;
+  font-size: medium;
+  border-style: solid;
+  color: rgb(51, 158, 51);
+  border-color: rgb(51, 158, 51);
+  background-color: rgb(25, 25, 25);
+  border-radius: 6px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all, 0.30s;
+  font-weight: bold;
+
+  display: inline-block;
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.vai:hover {
+  color: rgb(53, 53, 53);
+  border-color: rgb(53, 53, 53);
+  background-color: rgb(51, 158, 51);
+  border-radius: 20px;
+  transition: all, 0.30s;
+}
+
+.lista {
+  width: 20%;
+  font-size: medium;
+  text-align: left;
+}
+
+/*
+-----------------------
+_______________________
+|    SYSTEMA NERVOSO  |
+_______________________
+-----------------------
+*/
+
+.title-sis-nervs {
+  cursor: default;
+  color: rgb(6, 95, 212);
+  display: inline-block;
+  width: fit-content;
+
+  border-radius: 5px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: box-shadow 0.15s;
+  transition: outline-offset 0.15s;
+}
+
+.title-sis-nervs:hover {
+  color: rgb(6, 95, 212);
+  width: fit-content;
+
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
+
+  outline-style: solid;
+  outline-color: invert;
+  outline-offset: 10px;
+}
+
+.nervs-lista1 {
+  width: 15%;
+  /* Adjust as needed */
+  font-size: medium;
+  text-align: left;
+}
+
+.nervs-lista2 {
+  width: 15%;
+  /* Adjust as needed */
+  font-size: medium;
+  text-align: left;
+}
+
+.neuroni {
+  border-radius: 10px;
+  width: 500px;
+}
+
+.neuroni:hover {
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+  transition: all, 0.30s;
+}

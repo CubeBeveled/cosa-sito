@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="454"
+   height="454"
+   viewBox="0 0 120.12083 120.12083"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Icon.svg"
+   inkscape:export-filename="Icon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4788159"
+     inkscape:cx="182.91661"
+     inkscape:cy="213.34636"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="96.022768"
+       y="157.55849"
+       width="269.81045"
+       height="196.77905"
+       id="rect186" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(1.0389166,0,0,1.0118094,-173.76984,-199.52913)"
+       id="text184"
+       style="font-size:169px;text-align:center;white-space:pre;shape-inside:url(#rect186);display:inline;fill:#ffffff;paint-order:markers fill stroke"><tspan
+         x="186.07935"
+         y="312.90663"
+         id="tspan14868"><tspan
+           style="font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#000000"
+           id="tspan14866">?</tspan></tspan></text>
+  </g>
+</svg>
