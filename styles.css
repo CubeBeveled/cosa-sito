@@ -4,6 +4,10 @@ body {
   color: rgb(255, 255, 255);
 }
 
+a {
+  text-decoration: none;
+}
+
 /*
 TOP BAR
 */
@@ -119,42 +123,9 @@ TITLE
 /*
 ENTRIES LIST
 */
-.entry-drop {
-  user-select: none;
-  cursor: pointer;
-  width: fit-content;
-  background-color: rgb(65, 65, 65);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 50px;
-  transition: all, 0.40s;
-}
-
-.entry-drop:hover {
-  cursor: pointer;
-  width: fit-content;
-  background-color: rgb(25, 25, 25);
-  border-radius: 5px;
-
-  margin-top: 5px;
-}
-
-.entry-drop:active {
-  background-color: rgb(13, 13, 13);
-
-  margin-top: 20px;
-  transition: margin-top, 0.1s;
-}
-
-
-.entry-drop:focus {
-  border: 1px solid #007bff;
-}
 
 .entry {
-  cursor: default;
+  cursor: pointer;
   user-select: none;
   color: rgb(190, 190, 190);
   background-color: rgb(31, 31, 31);
