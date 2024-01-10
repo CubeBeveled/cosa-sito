@@ -28,8 +28,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4788159"
-     inkscape:cx="182.91661"
-     inkscape:cy="213.34636"
+     inkscape:cx="182.91662"
+     inkscape:cy="213.34637"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -53,11 +53,11 @@
        xml:space="preserve"
        transform="matrix(1.0389166,0,0,1.0118094,-173.76984,-199.52913)"
        id="text184"
-       style="font-size:169px;text-align:center;white-space:pre;shape-inside:url(#rect186);display:inline;fill:#ffffff;paint-order:markers fill stroke"><tspan
+       style="font-size:169px;text-align:center;white-space:pre;shape-inside:url(#rect186);display:inline;fill:#ffffff;paint-order:markers fill stroke;fill-opacity:1"><tspan
          x="186.07935"
          y="312.90663"
-         id="tspan14868"><tspan
-           style="font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#000000"
-           id="tspan14866">?</tspan></tspan></text>
+         id="tspan855"><tspan
+           style="font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, '"
+           id="tspan853">?</tspan></tspan></text>
   </g>
 </svg>
