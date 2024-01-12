@@ -164,70 +164,38 @@ ENTRIES LIST
 /*
 ENTRIES
 */
-.indietro {
-  position: fixed;
-  cursor: pointer;
-  font-size: medium;
-  border-style: solid;
-  color: rgb(6, 95, 212);
-  border-color: rgb(6, 95, 212);
-  background-color: rgb(25, 25, 25);
+
+.back-link {
   
-  margin-top: 10px;
-  font-weight: 100;
-  padding-top: 9px;
-  font-weight: bold;
-  margin-left: 10px;
-  padding-left: 16px;
-  border-radius: 6px;
-  padding-bottom: 9px;
-  padding-right: 16px;
-  margin-bottom: 10px;
+}
+
+.back-button {
+  cursor: pointer;
+  position: fixed;
+  font-size: 30px;
+  font-weight: bolder;
+  border-style: solid;
+  
+  height: fit-content;
+
+  color: rgb(6, 95, 212);
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(25, 25, 25, 0);
+
+  margin: 10px;
+  
+  border-radius: 20px;
+
   transition: all, 0.30s;
 
   display: inline-block;
-  vertical-align: bottom;
-  /*position: fixed;
-    position: absolute;*/
+
   top: 0;
 }
 
-.indietro:hover {
-  color: rgb(53, 53, 53);
-  border-color: rgb(53, 53, 53);
-  background-color: rgb(6, 95, 212);
-  border-radius: 20px;
-  transition: all, 0.30s;
-}
-
-.vai {
-  cursor: pointer;
-  font-size: medium;
-  border-style: solid;
-  color: rgb(51, 158, 51);
-  border-color: rgb(51, 158, 51);
-  background-color: rgb(25, 25, 25);
-  border-radius: 6px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all, 0.30s;
-  font-weight: bold;
-
-  display: inline-block;
-  vertical-align: bottom;
-  width: 100%;
-}
-
-.vai:hover {
-  color: rgb(53, 53, 53);
-  border-color: rgb(53, 53, 53);
-  background-color: rgb(51, 158, 51);
-  border-radius: 20px;
-  transition: all, 0.30s;
+.back-button:hover {
+  color: rgb(0, 106, 255);
+  transition: all, 0.20s;
 }
 
 .lista {
