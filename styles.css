@@ -172,17 +172,18 @@ ENTRIES
   color: rgb(6, 95, 212);
   border-color: rgb(6, 95, 212);
   background-color: rgb(25, 25, 25);
-
-  border-radius: 6px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 16px;
-  padding-right: 16px;
+  
   margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  transition: all, 0.30s;
+  font-weight: 100;
+  padding-top: 9px;
   font-weight: bold;
+  margin-left: 10px;
+  padding-left: 16px;
+  border-radius: 6px;
+  padding-bottom: 9px;
+  padding-right: 16px;
+  margin-bottom: 10px;
+  transition: all, 0.30s;
 
   display: inline-block;
   vertical-align: bottom;
@@ -230,7 +231,7 @@ ENTRIES
 }
 
 .lista {
-  width: 20%;
+  width: fit-content;
   font-size: medium;
   text-align: left;
 }
