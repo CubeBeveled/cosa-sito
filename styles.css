@@ -178,7 +178,8 @@ ENTRIES
   
   height: fit-content;
 
-  color: rgb(6, 95, 212);
+  /*Old colour rgb(6, 95, 212)*/
+  color: rgb(255, 255, 255);
   border-color: rgba(0, 0, 0, 0);
   background-color: rgba(25, 25, 25, 0);
 
