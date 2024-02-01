@@ -9,6 +9,18 @@ Targeting an element.
 
 }`
 
+# Entità
+* `<` = `&lt;`
+* `>` = `&gt;`
+* &rArr; = `&rArr;`
+* &lArr; = `&lArr;`
+* &rarr; = `&rarr;`
+* &larr; = `&larr;`
+* [Altre frecce qui](https://www.w3schools.com/charsets/ref_utf_arrows.asp)
+* &#128712; = `&#128712;`
+* &#8505; = `&#8505;`
+* &#9432; = `&#9432;`
+
 ### Display types
 * block-element: takes the entire line.
 * inline-block: only takes up as much space as needed.

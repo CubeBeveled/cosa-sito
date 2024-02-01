@@ -1,0 +1,27 @@
+  .evidenziato {
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    color: rgb(145, 174, 255);
+    transform: translateX(5px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .evidenziato.show {
+    color: rgb(97, 142, 255);
+    transform: translateX(10px);
+  }
+
+  .info {
+    cursor: pointer;
+    display: inline-block;
+    position: sticky;
+    color: rgb(255, 255, 255);
+    transform: translateX(1000%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .info.show {
+    color: rgb(97, 142, 255);
+    transform: translateX(50%);
+  }
