@@ -21,7 +21,7 @@
     <h2>Il tempo della narrazione</h2>
 
       Quanto durano gli eventi narrati
-      Elementi che definiscono il ritmo della narrazione:
+      <h3>Elementi che definiscono il ritmo della narrazione</h3>
       <ul class="lista">
         <li>Sommario: raccontare velocemente una parte di una storia <div id="sommario" class="evidenziato">TS &gt; TN</div></li>
         <li>Ellissi: non raccontare un periodo di tempo <div id="ellissi" class="evidenziato">TN = 0</div></li>
@@ -29,10 +29,15 @@
         <li>Scena: ommettere parti non importanti della storia <div id="scena" class="evidenziato">TS = TN</div></li>
         <li>Estensione: ommettere parti non importanti della storia <div id="estensione" class="evidenziato">TS &lt; TN</div></li>
       </ul>
-      L'ordine:
+      <h3>L'ordine</h3>
       <ul class="lista">
         <li>Fabula: ordine logico: Causa &rArr; effetto &rArr; conseguenza. Questo ordine non è mai usato nel giallo</li>
         <li>Intreccio: ordine stabilito dall narratore spesso per catturare l'attenzione</li>
+      </ul>
+      <h3>Termini</h3>
+      <ul class="lista">
+        <li>Analessi/flashback: visione del passato</li>
+        <li>Prolessi/flashforward: visione del futuro</li>
       </ul>
   </center>
 
@@ -50,18 +55,6 @@
     const pausa = document.getElementById("pausa");
     const scena = document.getElementById("scena");
     const estensione = document.getElementById("estensione");
-    const info = document.getElementById("info");
-
-    info.addEventListener("mouseout", () => {
-      info.classList.remove("show");
-      info.textContent = "🛈"
-    });
-    
-    info.addEventListener("mouseover", () => {
-      info.classList.add("show");
-      info.textContent = "Mai usato nel racconto giallo";
-    });
-
 
     estensione.addEventListener("mouseout", () => {
       estensione.classList.remove("show");
