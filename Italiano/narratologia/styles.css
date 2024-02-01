@@ -25,3 +25,30 @@
     color: rgb(97, 142, 255);
     transform: translateX(50%);
   }
+
+  .title {
+    cursor: default;
+    color: rgb(6, 95, 212);
+    display: inline-block;
+    width: fit-content;
+
+    border-radius: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: box-shadow 0.15s;
+    transition: outline-offset 0.15s;
+  }
+
+  .title:hover {
+    color: rgb(6, 95, 212);
+    width: fit-content;
+
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
+
+    outline-style: solid;
+    outline-color: invert;
+    outline-offset: 10px;
+  }
