@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <title>Cosa - Decimale &rarr; ottale</title>
+    <link rel="icon" type="image/png" href="../../Icon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Tilt+Neon&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <center><h1 class="titolo">Numero decimale &rarr; ottale</h2><br></center>
+    <center>
+      <input type="number" id="decimalInput" placeholder="numero decimale(es. 156)">
+      <br>
+      <button onclick="convertToOctal()">Trasforma</button>
+    </center>
+    
+    <div class="contenuto">
+      <div class="output" id="stepsOutput"></div>
+    </div>
+
+    <center>
+      <div class="output" id="resultOutput"></div>
+    </center>
+
+    
+    <a href="../../index.html" target="_self" class="back-link">
+      <button class="back-button">&larr;</button>
+    </a>
+  </body>
+</html>
+
+<script>
+  function convertToOctal() {
+    const decimalInput = document.getElementById("decimalInput").value;
+    let decimalNumber = parseInt(decimalInput);
+
+    if (isNaN(decimalNumber) || decimalNumber < 0) {
+      document.getElementById("stepsOutput").innerHTML = "Il numero dato non è un numero decimale valido.";
+      document.getElementById("resultOutput").innerHTML = "";
+      return;
+    }
+
+    let steps = "";
+    let octalResult = "";
+    let stepNumber = 1;
+
+    while (decimalNumber > 0) {
+      let remainder = decimalNumber % 8;
+      steps += `<p><strong>${stepNumber}</strong>: ${decimalNumber} ÷ 8 = ${Math.floor(decimalNumber / 8)} <span class="dim-text">R ${remainder}</span></p>`;
+      octalResult = remainder + octalResult;
+      decimalNumber = Math.floor(decimalNumber / 8);
+      stepNumber++;
+    }
+
+    document.getElementById("stepsOutput").innerHTML = `<h3>Passaggi</h3>${steps}`;
+    document.getElementById("resultOutput").innerHTML = `<h3>Risultato</h3><p>${octalResult || "0"}</p>`;
+  }
+</script>
+
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>

@@ -12,9 +12,9 @@ Targeting an element.
 # Entità
 * `<` = `&lt;`
 * `>` = `&gt;`
-* &rArr; = `&rArr;`
+* &larr; = `&larr;`
 * &lArr; = `&lArr;`
-* &rarr; = `&rarr;`
+* &larr; = `&larr;`
 * &larr; = `&larr;`
 * [Altre frecce qui](https://www.w3schools.com/charsets/ref_utf_arrows.asp)
 * &#128712; = `&#128712;`
