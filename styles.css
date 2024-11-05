@@ -92,7 +92,7 @@ STUFF STYLES
   color: rgb(6, 95, 212);
 }
 
-button {
+.button {
   cursor: pointer;
   font-size: medium;
   border-style: solid;
@@ -113,7 +113,7 @@ button {
   vertical-align: bottom;
 }
 
-button:hover {
+.button:hover {
   color: rgb(53, 53, 53);
   border-color: rgb(53, 53, 53);
   background-color: rgb(6, 95, 212);
